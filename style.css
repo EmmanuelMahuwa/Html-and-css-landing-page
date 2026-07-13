@@ -5,6 +5,9 @@
 }
 
 body,
+main,
+section,
+div,
 h1,
 p {
     margin: 0;
@@ -14,6 +17,9 @@ p {
 body {
     font-family: "Red Hat Display", sans-serif;
     padding-top: 5rem;
+}
+.upper-main {
+    margin-bottom: 5rem;
 }
 
 .dot1 {
@@ -45,30 +51,27 @@ body {
     justify-content: center;
     gap: 1rem;
     margin-bottom: 5rem;
-
-}
-.web-title {
-    font-family: "Red Hat Display", sans-serif;
     font-weight: bold;
     font-size: 1.5rem;
+
 }
+
 .img-1-2 {
     display: flex;
-    gap: 2rem;
     overflow: hidden;
 }
 .img-1,
 .img-2 {
-    width: 45%;
+    width: 50%;
     height: auto;
 }
 
 .img-1 {
-    transform: translateX(-1.5rem);
+    transform: translateX(-2rem);
 }
 
 .img-2 {
-    transform: translateX(1.5rem);
+    transform: translateX(2rem);
 }
 
 .meet-description {
@@ -82,8 +85,123 @@ body {
 .group-chat-for-everyone {
     color: rgb(36, 33, 33);
     font-weight: bold;
-    font-family: "Red Hat Display", sans-serif;
     font-size: 4rem;
     text-align: center;
     width: 80%;
+    font-stretch: 120%;
+    margin-bottom: 2rem;
+}
+
+.description {
+    color: darkgray;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 90%;
+    margin-bottom: 2rem;
+}
+
+button {
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    
+}
+.button-1 {
+    background-color: rgb(46, 184, 184);
+}
+.button-2 {
+    background-color: rgb(157, 99, 211);
+}
+
+.line-1 {
+    align-items: center;
+
+}
+.middle-main {
+    padding-inline: 3rem;
+}
+.svg-sect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+line {
+    align-items: center;
+}
+
+.svg-for-line {
+    width: "1";
+    height: "100";
+}
+
+.img-3-6-sect {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+.img-3, .img-5, .img-4, .img-6 {
+    border-radius: 1.5rem;
+}
+.img-6 {
+    width: 100%;
+    height: auto;
+}
+.img-3 {
+    width: 100%;
+    height: auto;
+}
+.img-4 {
+    width: 100%;
+    height: auto;
+}
+.img-5 {
+    width: 100%;
+    height: auto;
+}
+h2 {
+    
+}
+
+.built-for {
+    max-width: 45rem;
+    margin-inline: auto;
+    text-align: center;
+    color: #4D96A9;
+    font-weight: 900;
+    letter-spacing: 0.25rem;
+    text-transform: uppercase;
+    margin-bottom: 0rem;
+    font-size: clamp(0.01rem, 5vw, 3rem);
+}
+
+
+.smarter-meetings {
+    max-width: 50rem;
+    margin-inline: auto;
+    text-align: center;
+    color: #383747;
+    font-weight: 1000;
+    margin-bottom: 2rem;
+    font-size: clamp(2rem, 8vw, 4.5rem);
+    line-height: 3.8rem;
+}
+.img-3-6-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-functions {
+    text-align: center;
+    color: rgba(149, 149, 150, 0.699);
+    font-size: clamp(2rem, 3vw, 3rem);
 }
