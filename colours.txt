@@ -1,0 +1,8 @@
+background-color: blue;
+background-color: purple;
+color: rgb(45, 38, 65);
+color: #28283D;
+color: #87879D;
+background-color: rgb(46, 184, 184);
+background-color: rgb(157, 99, 211);
+color: #4D96A9;

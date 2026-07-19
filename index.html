@@ -15,8 +15,22 @@
   <main class="upper-main">
     <section class="circles-meet">
       <div class="circles">
-        <span class="dot1"></span>
-        <span class="dot2"></span>
+        <svg class="circle-1" width="45" height="60">
+          <circle
+            cx="30"
+            cy="45"
+            r="15"
+            fill="rgb(46, 184, 184)"
+          >
+        </svg>
+        <svg class="circle-2" width="40" height="60">
+          <circle
+            cx="20"
+            cy="15"
+            r="15"
+            fill="rgb(157, 99, 211)"
+          >
+        </svg>
       </div>
       <h1 class="web-title">meet</h1>
     </section>
@@ -29,31 +43,33 @@
     <section class="meet-description">
       <p class="group-chat-for-everyone">Group Chat for Everyone</p>
       <p class="description">Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
+      <div class="button-1-and-2">
+        <button class="button-1">Download v1.3</button>
+        <button class="button-2">What is it?</button>
+      </div>
 
-      <button class="button-1">Download v1.3</button>
-      <button class="button-2">What is it?</button>
     </section>
 
   </main>
 
   <main class="middle-main">
     <section class="svg-sect">
-      <svg class="svg-for-line" width="5" height="150">
+      <svg class="svg-for-line-1" width="100%" height="150" margin-bottom="0" background-color="blue">
         <line class="line-1"
-          y="20"
-          x1="0" 
-          y1="" 
-          x2="0" 
-          y2="150" 
-          stroke-width="5"
+         
+          x1="50%" 
+          y1="0" 
+          x2="50%" 
+          y2="100%" 
+          stroke-width="2"
           stroke-height="50"
           stroke="#e0e0e0"
         />
       </svg>
-      <svg width="100" height="100">
+      <svg class="svg-for-circle-3" width="100%" height="100">
         <circle class="circle-3"
-          cx="50"
-          cy="50"
+          cx="50%"
+          cy="50%"
           r="49"
           fill="white"
           stroke="#e0e0e0"
@@ -61,8 +77,8 @@
         />
 
         <text
-          x="50"
-          y="50"
+          x="50%"
+          y="50%"
           text-anchor="middle"
           dominant-baseline="middle"
           fill="#87879D"
@@ -73,49 +89,69 @@
         </text>
       </svg>
     </section>
-    <section class="img-3-6-sect">
+
+    <section class="img-3-to-6">
       <img class="img-3" src="assets/desktop/image-woman-in-videocall.jpg">
       <img class="img-4" src="assets/desktop/image-women-videochatting.jpg">
       <img class="img-5" src="assets/desktop/image-men-in-meeting.jpg">
       <img class="img-6" src="assets/desktop/image-man-texting.jpg">
     </section>
-    <section class="img-3-6-text">
+    <section class="img-3-to-6-text">
       <h2 class="built-for">Built for modern use</h2>
-
       <h2 class="smarter-meetings">
-        Smarter meetings,<br> all in one place
+        Smarter meetings, all in one place
       </h2>
-
       <p class="page-functions">
-        Send messages, share files, show your <br> screen, and record your meetings — all in one <br>
-        workspace. Control who can join with invite-<br>only team access, data encryption, and data <br>export.
+        Send messages, share files, show your screen, and record your meetings — all in one 
+        workspace. Control who can join with invite-only team access, data encryption, and data export.
       </p>
     </section>
 
   </main>
 
   <main>
-    <svg width="100%" height="150">
-      <line 
-        y1="30"
-        x1="50%"
-        y2="125"
-        x2="50%"
-        stroke="#adacac"
-        stroke-height="50"
-      />
-    </svg>
-    <svg width="100%" height="100">
-      <circle
-        cx="50%"
-        cy="50%"
-        r="50"
-      />
-    </svg>
-    <p>Experience more together<p>
-    <p>Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.<p>
+    <section class="svg-sect">
+      <svg class="svg-for-line-2" width="100%" height="200">
+        <line class="line-2"
+          y1="20"
+          x1="50%" 
+          x2="50%" 
+          y2="200" 
+          stroke-width="2"
+          stroke-height="50"
+          stroke="#e0e0e0"
+        />
+      </svg>
+      <svg class="svg-for-circle-4" width="100%" height="100">
+        <circle class="circle-4"
+          cx="50%"
+          cy="50%"
+          r="49"
+          fill="white"
+          stroke="#e0e0e0"
+          stroke-width="2"
+        />
 
-    <button>Download v1.3</button>
+        <text
+          x="50%"
+          y="50%"
+          text-anchor="middle"
+          dominant-baseline="middle"
+          fill="#87879D"
+          font-size="20"
+          font-family="Red Hat Display"
+          font-weight="900">
+          02
+        </text>
+      </svg>
+    </section>
+
+    <section class="end-sect">
+      <p class="experience-more">Experience more together<p>
+      <p class="stay-connected">Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.<p>
+      <button class="button-3">Download v1.3</button>
+    </section>
+    
   </main>
 </body>
 </html>

@@ -9,6 +9,7 @@ main,
 section,
 div,
 h1,
+svg,
 p {
     margin: 0;
     padding:0;
@@ -17,11 +18,229 @@ p {
 body {
     font-family: "Red Hat Display", sans-serif;
     padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 .upper-main {
     margin-bottom: 5rem;
 }
 
+.circles-meet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.circles {
+    display: flex;
+}
+
+.web-title {
+    color: rgb(45, 38, 65);
+    font-weight: 1000;
+    font-size: clamp(1rem, 10vw, 5rem);
+}
+
+.img-1-2 {
+    display: flex;
+    gap: 1rem;
+    overflow: hidden;
+
+}
+.img-1, .img-2 {
+    width: 50%;
+    height: auto;
+
+}
+.img-1 {
+    
+    height: auto;
+    transform: translateX(-2%);
+}
+.img-2 {
+  
+    height: auto;
+    transform: translateX(2);
+}
+.meet-description {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.group-chat-for-everyone {
+    color: #28283D;
+    font-weight: 1000;
+    font-size: clamp(1rem, 8vw, 4.5rem);
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 10ch;
+}
+
+.description {
+    text-align: center;
+    color: #87879D;
+    width: 31ch;
+    font-weight: 700;
+    font-size: clamp(1rem, 4vw, 2rem);
+}
+
+.button-1-and-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-1, .button-2, .button-3 {
+    border: none;
+    border-radius: 5rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    color: white;
+    margin-top: 2rem;
+}
+
+.button-1, .button-3 {
+    background-color: rgb(157, 99, 211);
+    width: 18rem;
+    margin-top: 4rem;
+    padding-inline: 1rem;
+}
+
+.button-2 {
+    background-color: aqua;
+    padding-inline: 0rem;
+    width: 13rem;
+}
+
+.svg-for-line-1 {
+    display: block;
+}
+
+.svg-for-circle-3 {
+    margin-bottom: 3rem;
+}
+
+.img-3-to-6 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 100%;
+    gap: 1rem;
+    height: auto;
+    padding: 1rem;
+}
+
+.img-3, .img-4, .img-5, .img-6 {
+    border-radius: 1rem;
+   
+}
+
+.img-3 {
+    width: 100%;
+}
+
+.img-4 {
+    width: 100%;
+} 
+
+.img-5 {
+    width: 100%;
+}
+
+.img-6 {
+    width: 100%;
+}
+
+.built-for {
+    color: rgb(52, 201, 201);
+    text-align: center;
+    font-size: clamp(1rem, 5vw, 4rem);
+    text-transform: uppercase;
+    font-weight: 700;
+    word-spacing: 0.4rem;
+}
+
+.smarter-meetings {
+    color: rgb(45, 38, 65);
+    text-align: center;
+    font-size: clamp(1rem, 8vw, 6rem);
+    font-weight: 800;
+    width: 14ch;
+}
+
+.img-3-to-6-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-functions {
+    text-align: center;
+    color: #87879D;
+    font-size: clamp(1rem, 3vw, 3rem);
+    width: 31ch;
+    font-weight: 700;
+
+}
+
+.end-sect {
+    width: 100%;
+    height: 100%;
+    background-color: #87879D;
+    background-image:
+      linear-gradient(rgba(121, 114, 223, 0.5), 
+      rgba(93, 93, 212, 0.5)),
+        url(assets/mobile/image-footer.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experience-more {
+    text-align: center;
+    width: 15ch;
+    font-size: clamp(1rem, 10vw, 4.5rem);
+    font-weight: 1000;
+    color: white;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.stay-connected {
+    width: 26ch;
+    font-size: clamp(1rem, 5vw, 4rem);
+    font-weight: 500;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+.button-3 {
+    margin-bottom: 3rem;
+}
+.svg-for-circle-4 {
+    display: block;
+    overflow: scroll;
+    transform: translateY(2.8rem);
+}
+.svg-for-line-2 {
+    display: block;
+    overflow: scroll;
+    transform: translateY(2.8rem);
+    margin-top: 3rem;
+}
+/*
 .dot1 {
     height: 1.5rem;
     width: 1.5rem;
@@ -51,9 +270,11 @@ body {
     justify-content: center;
     gap: 1rem;
     margin-bottom: 5rem;
-    font-weight: bold;
-    font-size: 1.5rem;
-
+}
+.web-title {
+    font-weight: 1000;
+    color: rgb(45, 38, 65);
+    font-size: 3.5rem;
 }
 
 .img-1-2 {
@@ -83,31 +304,40 @@ body {
 }
 
 .group-chat-for-everyone {
-    color: rgb(36, 33, 33);
-    font-weight: bold;
-    font-size: 4rem;
+    font-size: clamp(2.5rem, 8vw, 4rem);
+    font-weight: 900;
+    line-height: 1;
     text-align: center;
-    width: 80%;
-    font-stretch: 120%;
-    margin-bottom: 2rem;
+    color: #28283D;
+
+    max-width: 10ch;
+    margin: 0 auto 2rem;
 }
 
 .description {
-    color: darkgray;
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 4vw, 2.125rem);
+    line-height: 1.6;
+    color: #87879D;
     text-align: center;
-    width: 90%;
-    margin-bottom: 2rem;
+
+    max-width: 31ch;
+    margin-bottom: 3rem;
+
 }
 
+
 button {
-    font-size: large;
-    font-weight: bold;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    font-family: "Red Hat Display", sans-serif;
     color: white;
     border: none;
-    padding: 1rem;
-    border-radius: 2rem;
+    
+    border-radius: 4rem;
     margin-bottom: 1rem;
+    padding-inline: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     
 }
 .button-1 {
@@ -121,6 +351,7 @@ button {
     align-items: center;
 
 }
+
 .middle-main {
     padding-inline: 3rem;
 }
@@ -130,22 +361,13 @@ button {
     align-items: center;
     margin-bottom: 5rem;
 }
-
-line {
-    align-items: center;
-}
-
-.svg-for-line {
-    width: "1";
-    height: "100";
-}
-
 .img-3-6-sect {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2,1fr);
     gap: 2rem;
+    text-align: center;
     margin-bottom: 5rem;
 }
 .img-3, .img-5, .img-4, .img-6 {
@@ -167,41 +389,78 @@ line {
     width: 100%;
     height: auto;
 }
-h2 {
-    
-}
-
 .built-for {
     max-width: 45rem;
-    margin-inline: auto;
-    text-align: center;
     color: #4D96A9;
     font-weight: 900;
     letter-spacing: 0.25rem;
+    text-align: center;
+    word-spacing: 1rem;
+    white-space: nowrap;
     text-transform: uppercase;
-    margin-bottom: 0rem;
-    font-size: clamp(0.01rem, 5vw, 3rem);
+    font-size: clamp(1rem, 5vw, 1.6rem);
 }
 
-
 .smarter-meetings {
+    max-width: 10rem;
+    line-height: 2.5rem;
+    color: #28283D;
+    text-align: center;
+    font-weight: 1000;
+    font-size: clamp(1rem, 10vw, 2.5rem);
+    margin-bottom: 3rem;
+}
+
+.page-functions {
+    max-width: 40rem;
+    text-align: center;
+    color: rgba(149, 149, 150, 0.699);
+    font-size: clamp(1rem, 3vw, 3rem);
+}
+
+.line-2 {
+    align-items: center;
+}
+
+.end-sect {
+    background-color: #4D96A9;
+    background-image: url("assets/mobile/image-footer.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.experience-more {
     max-width: 50rem;
     margin-inline: auto;
     text-align: center;
-    color: #383747;
+    color: white;
     font-weight: 1000;
     margin-bottom: 2rem;
     font-size: clamp(2rem, 8vw, 4.5rem);
     line-height: 3.8rem;
 }
-.img-3-6-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+.stay-connected {
+    max-width: 50rem;
+    margin-inline: auto;
+    text-align: center;
+    color: white;
+   line-height: 0.2rem;
+    margin-bottom: 2rem;
+    font-size: clamp(2rem, 8vw, 1.5rem);
+    line-height: 3.8rem;
 }
 
-.page-functions {
-    text-align: center;
-    color: rgba(149, 149, 150, 0.699);
-    font-size: clamp(2rem, 3vw, 3rem);
+.button-3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-weight: 1000;
+    background-color: purple;
+    margin-bottom: 10rem;
+    padding: 1.5rem;
+    border-radius: 6rem;
+    padding-inline: 3rem;
 }
+
